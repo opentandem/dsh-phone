@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "OpenTandem-DSH-Phone",
+    "description": "Use dsh from your phone. After turning this on, click \"Phone\" (手机连接) in the left sidebar, scan the QR code with your phone and tap Allow in OpenTandem."
+  }
+}

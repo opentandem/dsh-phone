@@ -1,0 +1,4 @@
+# Adds the OpenTandem phone pairing plugin: the /opentandem command and its page on the dsh web server.
+- insert:
+    - id: opentandem-phone
+      name: 'dsh-phone'

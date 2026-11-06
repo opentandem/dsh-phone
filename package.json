@@ -1,0 +1,58 @@
+{
+  "name": "dsh-phone",
+  "version": "0.1.5",
+  "description": "Use DeepSeek Harness from your phone: scan a QR code, sign in to OpenTandem on the phone, and send tasks to this computer.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "lib",
+    "locale",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "homepage": "https://opentandem.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/opentandem/dsh-phone.git"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "dsh",
+    "opentandem",
+    "mobile",
+    "phone",
+    "remote-control"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.5"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "icon": "./icon.svg"
+}

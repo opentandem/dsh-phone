@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "OpenTandem-DSH-Phone",
+    "description": "用手机使用这台电脑上的 dsh。启用后，点击左侧栏的「手机连接」，用手机扫码，并在手机的 OpenTandem 里点「允许」即可。"
+  }
+}
