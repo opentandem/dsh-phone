@@ -1,6 +1,6 @@
 # dsh-phone
 
-Use [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) from your phone. Scan a QR code in `dsh web`, sign in to [OpenTandem](https://opentandem.org) on the phone, tap **Allow**, and send tasks to the computer that runs `dsh`. Your existing `dsh` sessions show up on the phone, and the phone and the computer continue the same session.
+Use [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness) (`dsh`) from your phone. Scan a QR code in `dsh web`, sign in to [OpenTandem](https://opentandem.org/?utm_source=github&utm_campaign=dsh-phone) on the phone, tap **Allow**, and send tasks to the computer that runs `dsh`. Your existing `dsh` sessions show up on the phone, and the phone and the computer continue the same session.
 
 [中文说明](README.zh-CN.md)
 

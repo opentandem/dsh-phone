@@ -1,6 +1,6 @@
 # dsh-phone
 
-在手机上使用 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）。在 `dsh web` 里扫描二维码，在手机上登录 [OpenTandem](https://opentandem.org) 并点「允许」，就能把任务发给运行 `dsh` 的这台电脑。电脑上已有的 `dsh` 会话会出现在手机上，手机和电脑接着同一个会话聊。
+在手机上使用 [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（`dsh`）。在 `dsh web` 里扫描二维码，在手机上登录 [OpenTandem](https://opentandem.org/?utm_source=github&utm_campaign=dsh-phone) 并点「允许」，就能把任务发给运行 `dsh` 的这台电脑。电脑上已有的 `dsh` 会话会出现在手机上，手机和电脑接着同一个会话聊。
 
 [English](README.md)
 
